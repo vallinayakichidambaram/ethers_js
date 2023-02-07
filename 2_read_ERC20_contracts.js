@@ -10,7 +10,7 @@ const daiABI = [
     "function totalSupply() view returns(uint256)"
 
 ];
-const INFURA_ID = '';
+const INFURA_ID = ''; //Infura ID here
 
 const provider = new ethers.providers.JsonRpcProvider(`https://mainnet.infura.io/v3/${INFURA_ID}`)
 
