@@ -7,7 +7,7 @@ const provider = new ethers.providers.JsonRpcProvider(`https://mainnet.infura.io
 //Connection to the blockchain via Infura Node
 //Infura is a node provider - instead of running your node, you can use other's node for developing application
 //Address, block and transaction hash are taken from etherscan for reference
-const address = '0x95222290DD7278Aa3Ddd389Cc1E1d165CC4BAfe5';
+const address = '0x95222290DD7278Aa3Ddd389Cc1E1d165CC4BAfe';
 
 const block = 16567619
 
