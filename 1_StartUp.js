@@ -36,7 +36,10 @@ const main = async () => {
     console.log(`Gas Price: ${ethers.utils.formatUnits(gasPrice, 'gwei')} GWEI`)
 
     const transaction = await provider.getTransaction('0xbfd4d3da7beeb34467cf3c535f2bb2b8d37f48bebc794924f54322eb8f5deabe');
-    console.log(transaction)
+    console.log(transaction) 
+
+    const connectionInfo = await provider.connection;
+    console.log(connectionInfo)
 }
 
 
